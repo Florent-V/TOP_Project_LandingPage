@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* BANDEAU TOp */
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15vw 10vh;
+}
+
+.head-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEAD CONTENT */
+
+.head-content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.head-text {
+    width: 50%;
+
+}
+
+button {
+    background-color: #3B82F6;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 800;
+    width: 87px;
+    height: 26px;
+    box-sizing: content-box;
+}
+
+.head-image {
+    width: 50%;
+}
+
+.head-image img {
+    height: auto;
+    max-width: 100%;
+
+}
+
+/* MAIN INFO */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+/* citation */
+
+.citation {
+    background-color: #E5E7EB;
+    padding: 7vh 16vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.citation p, .sign-up p {
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.3em;
+}
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B82F6;
+    color: white;
+    margin: 5vh 15vw;
+    border-radius: 10px;
+    padding: 3vh 5vw;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    font-weight: bold;
+    
+}
+#title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#info {
+    font-size: 0.7em;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 0.7em;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
